@@ -4,7 +4,7 @@ const NodeMailer = require('nodemailer');
 const smtpTransport = require('nodemailer-smtp-transport');
 const cors = require("cors");
 const app = express();
-const port = process.env.PORT || 2001;
+const port = process.env.PORT || 5000;
 
 app.use(cors());
 

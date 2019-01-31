@@ -59,7 +59,7 @@ app.post('/',bodyParser, (req,res) => {
 
     let mailOptions = {
         from: remitente + "<" + remitente + ">",
-        to: ['luis@cavernadigital.cl','javier@cavernadigital.cl','nicolas@cavernadigital.cl'],
+        to: ['luis@cavernadigital.cl','javier@cavernadigital.cl','hola@cavernadigital.cl'],
         subject: 'Formulario de contacto Caverna Digital',
         html: template
     };

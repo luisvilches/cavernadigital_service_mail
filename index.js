@@ -65,7 +65,7 @@ app.post('/',bodyParser, (req,res) => {
     };
 
     let smtp = {
-        host: 'mail.cavernadigital.cl',
+        host: 'hosty16.dnshosty.net',
         port: 465,
         secure: true,
         auth: {
